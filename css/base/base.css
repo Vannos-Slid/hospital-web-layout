@@ -1,0 +1,79 @@
+:root {
+    --text-color: #503217;
+    --black-text-color: #160D05;
+
+    --body-text: #8F7D6A;
+
+    --badge-bg: #D3744A;
+
+    --bg-color: #EEEDE7;
+
+    --border-color: #E8E6DE;
+
+    --color-bg-shade: #E2DFCF;
+
+    --inner-bg-color: #EBE9E0;
+
+    --font-base: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    font-family: var(--font-base);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 500;
+    line-height: 120%;
+}
+
+h3,
+h4 {
+    font-weight: 500;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--body-text);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+
+    max-width: 1330px;
+    width: 100%;
+}
