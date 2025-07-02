@@ -33,8 +33,8 @@ h4 {
     line-height: 120%;
 }
 
-h3,
-h4 {
+h5,
+h6 {
     font-weight: 500;
     line-height: 150%;
 }
@@ -70,9 +70,12 @@ p {
     color: var(--body-text);
 }
 
+a {
+    color: var(--body-text);
+}
+
 .container {
     margin: 0 auto;
-    padding: 0 15px;
 
     max-width: 1330px;
     width: 100%;
