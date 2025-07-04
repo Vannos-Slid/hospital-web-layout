@@ -72,7 +72,7 @@
 
     <main class="main">
 
-        <section class="section">
+        <section class="section section-rodemap">
 
             <div class="container">
 
@@ -84,8 +84,9 @@
 
                         <a href="#!" class="card-category">
 
-                            <div class="icon-container">
-                                <img src="./imgs/rodemap/pill-icon.svg" alt="">
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/pill-icon.svg" alt="">
                             </div>
 
                             <h6>Medicine</h6>
@@ -93,25 +94,87 @@
                             <p>32 Items</p>
                         </a>
 
+                        <a href="#!" class="card-category">
+
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/heart-icon.svg" alt="">
+                            </div>
+
+                            <h6>Health care</h6>
+
+                            <p>20 Items</p>
+                        </a>
+
+                        <a href="#!" class="card-category">
+
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/leaf-icon.svg" alt="">
+                            </div>
+
+                            <h6>Beauty care</h6>
+
+                            <p>30 Items</p>
+                        </a>
+
+                        <a href="#!" class="card-category">
+
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/heart-icon-2.svg" alt="">
+                            </div>
+
+                            <h6>Fitness</h6>
+
+                            <p>35 Items</p>
+                        </a>
+
+                        <a href="#!" class="card-category">
+
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/beaker-icon.svg" alt="">
+                            </div>
+
+                            <h6>Lab equipment</h6>
+
+                            <p>25 Items</p>
+                        </a>
+
+                        <a href="#!" class="card-category">
+
+                            <div class="circle-wrapper">
+                                <div class="circle"></div>
+                                <img class="circle-wrapper-element" src="./imgs/rodemap/medkit-icon.svg" alt="">
+                            </div>
+
+                            <h6>Medkits</h6>
+
+                            <p>25 Items</p>
+                        </a>
+
                     </div>
 
+                    <img src="./imgs/rodemap/bg-pills-item.svg" alt="" class="section-category-img-prop">
                 </div>
 
                 <div class="section-cta">
 
-                    <a class="section-cta-grid">
+                    <div class="section-cta-grid">
 
                         <div href="#!" class="card-cta">
 
                             <div class="cta-text">
-                                <div class="budge"><span>Sanitizer</span></div>
+                                <span class="budge">Sanitizer</span>
 
                                 <h5 class="cta-title">Hand sanitizer collection</h5>
 
                                 <a href="#!" class="underline-link">
                                     <img src="./imgs/rodemap/bag-icon.svg" alt="">
-                                    <span>Shop now</span>
+                                    <h6>Shop now</h6>
                                 </a>
+
                             </div>
 
                             <img src="./imgs/rodemap/realistic-hand-sanitizer-bottle-3d-style 1.png"
@@ -119,7 +182,44 @@
 
                         </div>
 
-                    </a>
+                        <div href="#!" class="card-cta">
+
+                            <div class="cta-text">
+                                <span class="budge">Top deals</span>
+
+                                <h5 class="cta-title">Face wash sale collection</h5>
+
+                                <a href="#!" class="underline-link">
+                                    <img src="./imgs/rodemap/eye-icon.svg" alt="">
+                                    <h6>Discover now</h6>
+                                </a>
+
+                            </div>
+
+                            <img src="./imgs/rodemap/deal.png" srcset="./imgs/rodemap/deal@2x.png 2x" alt="">
+
+                        </div>
+
+                        <div href="#!" class="card-cta">
+
+                            <div class="cta-text">
+                                <span class="budge">Face mask</span>
+
+                                <h5 class="cta-title">Facial mask deals save up to 50%</h5>
+
+                                <a href="#!" class="underline-link">
+                                    <img src="./imgs/rodemap/eye-icon.svg" alt="">
+                                    <h6>Discover now</h6>
+                                </a>
+
+                            </div>
+
+                            <img src="./imgs/rodemap/realistic-medical-mask-with-shadows 1.png"
+                                srcset="./imgs/rodemap/realistic-medical-mask-with-shadows 1@2x.png 2x" alt="">
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -127,14 +227,14 @@
 
                     <h4 class="section-title">Latest health product</h4>
 
-                    <a href="#!" class="section-latest-product-grid">
+                    <div href="#!" class="section-latest-product-grid">
 
                         <div class="card-product">
 
                             <div class="card-product-showcase">
-                                <div class="budge"><span>New</span></div>
+                                <span class="budge">New</span>
 
-                                <div class="card-product-showcase-container">
+                                <div class="card-product-showcase-wrapper">
                                     <img src="./imgs/rodemap/microscope.png"
                                         srcset="./imgs/rodemap/microscope@2x.png 2x" alt="">
 
@@ -149,14 +249,143 @@
 
                             <div class="card-product__last">
                                 <h5>Microscope</h5>
-                                <h6>$45.00 USD</h6>
+                                <div class="discount">
+                                    <h6>$45.00 USD</h6>
+                                    <p class="hidden"><span>$45.00</span> USD</p>
+                                </div>
                             </div>
 
                         </div>
-                    </a>
+
+                        <div class="card-product">
+
+                            <div class="card-product-showcase">
+                                <span class="budge">Save 10%</span>
+
+                                <div class="card-product-showcase-wrapper">
+                                    <img src="./imgs/rodemap/sleek-pulse-oximeter-with-soft-ambient-lighting.png"
+                                        srcset="./imgs/rodemap/sleek-pulse-oximeter-with-soft-ambient-lighting.png@2x.png 2x"
+                                        alt="">
+
+                                </div>
+
+                            </div>
+
+                            <div class="card-product__last">
+                                <h5>Pulse oximeter</h5>
+
+                                <div class="discount">
+                                    <h6>$19.00 USD</h6>
+                                    <p><span>$25.00</span> USD</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-product">
+
+                            <div class="card-product-showcase">
+                                <span id="budge-hidden1" class="budge">N/A</span>
+
+                                <div class="card-product-showcase-wrapper">
+                                    <img src="./imgs/rodemap/vitamin-serum.png"
+                                        srcset="./imgs/rodemap/vitamin-serum.png@2x.png 2x" alt="">
+
+                                </div>
+
+                            </div>
+
+                            <div class="card-product__last">
+                                <h5>Pulse oximeter</h5>
+
+                                <div class="discount">
+                                    <h6>$20.00 USD</h6>
+                                    <p><span>$30.00</span> USD</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-product">
+
+                            <div class="card-product-showcase">
+                                <span class="budge">Save 10%</span>
+
+                                <div class="card-product-showcase-wrapper">
+                                    <img src="./imgs/rodemap/pills.png" srcset="./imgs/rodemap/pills@2x.png 2x" alt="">
+
+                                </div>
+
+                            </div>
+
+                            <div class="card-product__last">
+                                <h5>Pulse oximeter</h5>
+
+                                <div class="discount">
+                                    <h6>$50.00 USD</h6>
+                                    <p class="hidden"><span>$50.00</span> USD</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./imgs/rodemap/bg-pills-item-2.svg" alt="" class="section-latest-product-img-prop">
                 </div>
 
-                <div class="section-sertificates"></div>
+                <div class="section-sertificates">
+
+                    <div class="section-sertificates-grid">
+
+                        <div class="card-sertificate">
+
+                            <div class="shape-wrapper">
+                                <img src="./imgs/rodemap/background-pic-2.svg" alt="" class="shape">
+                                <img src="./imgs/rodemap/warranty-icon.svg" alt="" class="shape-wrapper-element">
+                            </div>
+
+                            <div class="card-sertificate-text">
+                                <h6>30 Days warranty</h6>
+                                <p>Enjoy peace of mind with warranty</p>
+                            </div>
+
+                        </div>
+
+                        <div class="card-sertificate">
+
+                            <div class="shape-wrapper">
+                                <img src="./imgs/rodemap/background-pic-2.svg" alt="" class="shape">
+                                <img src="./imgs/rodemap/exchange-icon.svg" alt="" class="shape-wrapper-element">
+                            </div>
+
+                            <div class="card-sertificate-text">
+                                <h6>Exchange policy</h6>
+                                <p>You're satisfied with your purchase</p>
+                            </div>
+
+                        </div>
+
+                        <div class="card-sertificate">
+
+                            <div class="shape-wrapper">
+                                <img src="./imgs/rodemap/background-pic-2.svg" alt="" class="shape">
+                                <img src="./imgs/rodemap/paycard-icon.svg" alt="" class="shape-wrapper-element">
+                            </div>
+
+                            <div class="card-sertificate-text">
+                                <h6>Secure payment</h6>
+                                <p>Shop with confidence every time</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
