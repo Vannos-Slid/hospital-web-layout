@@ -81,4 +81,15 @@ a {
 
     max-width: 1330px;
     width: 100%;
+
+
+    position: relative;
+    z-index: 1;
+}
+
+.background-wrapper {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
 }
