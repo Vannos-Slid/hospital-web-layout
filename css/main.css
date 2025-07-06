@@ -8,4 +8,8 @@
 /* Blocks */
 @import "./blocks/header.css";
 @import "./blocks/button.css";
-@import "./blocks/section.css"
+@import "./blocks/section.css";
+
+
+/* Tests */
+/* @import "./blocks/test.css" */

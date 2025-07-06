@@ -161,9 +161,15 @@
     gap: 30px;
 }
 
-.card-product {}
+.card-product {
+    color: var(--text-color);
+
+}
 
 .card-product-showcase {
+    display: flex;
+    flex-direction: column;
+
     margin-bottom: 15px;
     padding: 20px;
 
@@ -174,6 +180,7 @@
 }
 
 .card-product-showcase .budge {
+    width: fit-content;
     margin: 0;
 }
 
@@ -182,10 +189,13 @@
 }
 
 .card-product-showcase-wrapper {
+    flex: 1;
     display: flex;
+
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .product-button {
@@ -193,6 +203,7 @@
 
     display: flex;
     justify-content: center;
+    /* margin-top: auto; */
     gap: 5px;
     width: 100%;
 
