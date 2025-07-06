@@ -1,0 +1,87 @@
+.section-collection {
+    background-color: var(--border-color);
+    position: relative;
+}
+
+.section-collection-products {
+    margin-bottom: 130px;
+}
+
+.section-collection-img-prop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.section-collection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px 30px;
+}
+
+.section-join {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.section-join-left img {
+    border-radius: 10px;
+}
+
+.section-join-right {
+    padding: 60px 55px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-bg-card);
+    border-radius: 10px;
+}
+
+.section-join-right-title h5 {
+    margin-bottom: 20px;
+    color: var(--join-text-color);
+    text-align: center;
+}
+
+.section-join-right-title h4 {
+    text-align: center;
+}
+
+.section-join-right-inputs {
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.section-join-right-inputs button {
+    padding: 10px 28px;
+    display: flex;
+    gap: 5px;
+    background-color: var(--text-color);
+    border-radius: 10px;
+}
+
+.section-join-right-inputs button p {
+    color: var(--color-bg-card);
+}
+
+.join-input {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--inner-bg-color);
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+}
+
+.join-input::placeholder {
+    content: ' ';
+    background-image: url(../../imgs/collection/email-icon.svg);
+
+    background-repeat: no-repeat;
+    background-position: bottom 4px left 0;
+
+}
