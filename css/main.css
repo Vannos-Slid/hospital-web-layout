@@ -9,7 +9,8 @@
 @import "./blocks/header.css";
 @import "./blocks/button.css";
 @import "./blocks/section.css";
-@import "./blocks/collection.css"
+@import "./blocks/collection.css";
+@import "./blocks/feedback.css";
 
 
 /* Tests */

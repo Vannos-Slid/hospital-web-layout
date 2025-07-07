@@ -1,0 +1,142 @@
+.section {}
+
+.section-feedback {
+    position: relative;
+
+    min-height: 1482px;
+}
+
+.section-feedback-review {
+    padding: 97px 132px 55px;
+    margin-bottom: 30px;
+
+    background-color: var(--color-bg-card);
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.section-feedback-review p {
+    text-align: center;
+}
+
+.section-feedback-review-bg-prop {
+    position: absolute;
+    left: 39.5px;
+    top: 59px;
+
+    opacity: 0.3;
+}
+
+.section-feedback-grid {
+    margin-bottom: 130px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card-review {
+    padding: 23px;
+
+    display: flex;
+    gap: 15.5px;
+
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.selected {
+
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+}
+
+.circle-wrapper {
+    margin: 0;
+    padding: 0;
+
+    width: 70px;
+    height: 70px;
+
+    border-color: var(--body-text);
+}
+
+.section-title-big {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.section-feedback-follow-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.card-img {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.card-img-content {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    position: absolute;
+
+    text-align: center;
+}
+
+.link img {
+    margin-bottom: 10px;
+}
+
+.link h6 {
+    color: var(--text-color);
+}
+
+.bg-img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+#img-1 .bg-img {
+    border-radius: 10px;
+}
+
+#img-2 .bg-img {
+    opacity: 0.3;
+}
+
+#img-3 .bg-img {
+    border-radius: 50%;
+}
+
+#img-4 .bg-img {
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section-feedback-bg-prop {
+    position: absolute;
+    left: -72px;
+    top: 581px;
+
+    transform: rotate(-36deg);
+}

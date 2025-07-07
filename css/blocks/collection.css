@@ -67,6 +67,7 @@
 
 .section-join-right-inputs button p {
     color: var(--color-bg-card);
+    font-weight: 500;
 }
 
 .join-input {
