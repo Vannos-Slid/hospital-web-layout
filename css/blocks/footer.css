@@ -1,0 +1,125 @@
+.footer {
+    padding: 80px 0 34px;
+    width: 100%;
+    position: relative;
+    background-color: var(--border-color);
+}
+
+.row {
+    margin-bottom: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.row h6 {
+    color: var(--body-text);
+}
+
+.col {
+    flex-basis: 27%;
+}
+
+.col-first {
+    display: flex;
+    gap: 35px
+}
+
+.col-first h5 {
+    margin-bottom: 32px;
+}
+
+.col ul li {
+    margin-bottom: 15px;
+}
+
+.col-right {}
+
+.col-mid {
+    padding: 10px;
+    max-width: 318px;
+    text-align: center;
+    align-self: center;
+}
+
+.col-mid .footer-logo {
+    margin-bottom: 20px;
+}
+
+.col-mid p {
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.col-addr-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-address {
+    max-width: 270px;
+}
+
+.col-contact {
+    justify-self: flex-end;
+}
+
+.col h5 {
+    margin-bottom: 30px;
+}
+
+.footer-data {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer-data img {
+    margin-top: 5px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email img {
+    margin-top: 7px;
+}
+
+.phone {}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright hr {
+    width: 100%;
+    border: 1px solid var(--color-bg-shade);
+    margin-bottom: 33px;
+}
+
+.footer-bg-prop {
+    position: absolute;
+}
+
+#prop-1 {
+    top: 16px;
+    right: 20px;
+
+    transform: rotate(15deg);
+}
+
+#prop-2 {
+    bottom: 0;
+    left: 11px;
+}

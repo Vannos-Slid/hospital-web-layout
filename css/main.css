@@ -11,7 +11,8 @@
 @import "./blocks/section.css";
 @import "./blocks/collection.css";
 @import "./blocks/feedback.css";
+@import "./blocks/footer.css";
 
 
 /* Tests */
-/* @import "./blocks/test.css" */
+@import "./blocks/test.css"

@@ -53,7 +53,7 @@
     border-radius: 10px;
 }
 
-.circle-wrapper {
+.card-review .circle-wrapper {
     margin: 0;
     padding: 0;
 
@@ -74,6 +74,7 @@
 
 .section-feedback-follow-grid {
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
