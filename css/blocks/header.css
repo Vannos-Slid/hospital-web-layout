@@ -5,8 +5,6 @@
     position: relative;
 }
 
-.header .container {}
-
 .header-row {
     background-color: var(--bg-color);
 }
@@ -19,8 +17,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.header-logo {}
 
 .header-nav {
 
@@ -37,14 +33,6 @@
     align-items: center;
     gap: 20px;
 }
-
-.search {}
-
-.search-img {}
-
-.cart {}
-
-.cart-img {}
 
 .header-inner {
     display: flex;
@@ -70,10 +58,6 @@
     max-width: 415px;
 }
 
-.header-btn-wrapper {}
-
-.header-inner-img {}
-
 .header-bg-wrapper img {
     position: absolute;
     left: 0;
@@ -81,5 +65,3 @@
 
     opacity: 0.15;
 }
-
-.header-bg-prop-img {}

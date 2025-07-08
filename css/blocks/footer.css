@@ -34,8 +34,6 @@
     margin-bottom: 15px;
 }
 
-.col-right {}
-
 .col-mid {
     padding: 10px;
     max-width: 318px;
@@ -95,8 +93,6 @@
 .email img {
     margin-top: 7px;
 }
-
-.phone {}
 
 .copyright {
     text-align: center;
