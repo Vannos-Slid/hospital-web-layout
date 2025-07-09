@@ -1,17 +1,14 @@
 .header {
-    height: 990px;
     background-color: var(--border-color);
-
     position: relative;
 }
 
-.header-row {
+.header-section-nav {
     background-color: var(--bg-color);
 }
 
 .row.container {
     padding: 27px 0;
-    margin-bottom: 65px;
 
     display: flex;
     justify-content: space-between;
@@ -19,12 +16,21 @@
 }
 
 .header-nav {
-
     display: flex;
     align-items: center;
     gap: 30px;
 
     line-height: 150%;
+}
+
+.header-nav * {
+    color: var(--text-color);
+}
+
+.header-nav #pages {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
 }
 
 .header-icons {
@@ -34,6 +40,12 @@
     gap: 20px;
 }
 
+.header-section-hero {
+    padding: 65px 0 117.5px;
+    min-height: 900px;
+    position: relative;
+}
+
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -41,7 +53,7 @@
 }
 
 .header-inner-left {
-    max-width: 540px;
+    max-width: 600px;
 }
 
 .header-inner-left-text {
@@ -64,4 +76,71 @@
     bottom: 0;
 
     opacity: 0.15;
+}
+
+#header-section-nav-2 {
+    background-color: var(--color-bg-card);
+}
+
+#header-section-hero-2 {
+    padding: 152px 0;
+
+    background-image: image-set(url(../../imgs/header/bg-img.jpg) 1x,
+            url(../../imgs/header/bg-img@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: contain;
+}
+
+#header-section-hero-2 .header-inner-left {
+    display: flex;
+    align-items: stretch;
+    max-width: 707px;
+}
+
+.header-inner-left-text-content {
+    display: flex;
+    gap: 30px;
+}
+
+.header-inner-left-text-content img {
+    border-radius: 10px;
+}
+
+.header-inner-left-text-content .header-btn-wrapper {
+    max-width: 374px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.header-inner-left-text-content .header-btn-wrapper>p {
+    color: var(--text-color);
+}
+
+.header-inner-left-text-content .header-btn-wrapper .button {
+    max-width: fit-content;
+}
+
+
+#header-section-hero-2 .header-inner-left-text {
+    margin: 0;
+}
+
+#header-section-hero-2 .header-inner-left-text h1 {
+    width: 100%;
+    margin-bottom: 80px;
+    font-size: 68px;
+    line-height: 120%;
+}
+
+#header-section-hero-2 .header-inner-left-text p {
+    max-width: none;
+}
+
+#header-section-hero-2 .header-bg-wrapper img {
+    left: 207px;
+    bottom: 486px;
 }

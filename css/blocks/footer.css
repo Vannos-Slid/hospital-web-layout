@@ -5,7 +5,7 @@
     background-color: var(--border-color);
 }
 
-.row {
+.footer .row {
     margin-bottom: 43px;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 
-.row h6 {
+.footer .row h6 {
     color: var(--body-text);
 }
 
