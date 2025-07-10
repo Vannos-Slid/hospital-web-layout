@@ -144,3 +144,17 @@
     left: 207px;
     bottom: 486px;
 }
+
+.section-emblems {
+    padding: 32px 20px;
+    background-color: var(--color-bg-shade);
+}
+
+.section-emblem-container {}
+
+.section-emblem-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
