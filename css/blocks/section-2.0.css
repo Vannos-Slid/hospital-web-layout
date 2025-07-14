@@ -1,0 +1,102 @@
+.main {}
+
+.section-rodemap-2 {
+    padding: 130px 0 114px;
+    min-height: 1911px;
+    position: relative;
+}
+
+.conrainer {}
+
+.section-about {
+    margin-bottom: 80.5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section-about-inner {
+    max-width: 850px;
+}
+
+.section-about-inner h4 {
+    margin-bottom: 20px;
+    max-width: 790px;
+
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.section-about-inner p {
+    margin-bottom: 50px;
+    max-width: 695px;
+}
+
+.section-about-img-wrapper img {
+    border-radius: 10px;
+}
+
+.section-about .button {
+    padding: 10.5px 12.5px;
+}
+
+.section-about .button .button-content {
+    gap: 5px;
+}
+
+.section-features {
+    margin-bottom: 130px;
+}
+
+.section-features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 127px;
+}
+
+.card-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-collection-2 {
+    display: flex;
+    gap: 95px;
+}
+
+.section-collection-2-text h4 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.section-collection-2-text p {
+    margin-bottom: 73px;
+}
+
+.section-collection-2-text .button {
+    padding: 10.5px 16.5px;
+}
+
+.section-collection-2-text .button-content {
+    gap: 5px;
+}
+
+.section-collection-2-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 95px;
+}
+
+.section-collection-2 .card-product-showcase {
+    height: 310px;
+}
+
+.section-rodemap-2-bg-prop {
+    position: absolute;
+    top: 516px;
+    left: -31px;
+    opacity: 0.15;
+    transform: rotate(-19deg);
+}
