@@ -31,6 +31,8 @@
     display: flex;
     justify-content: center;
     gap: 3px;
+
+    cursor: pointer;
 }
 
 .header-icons {
@@ -149,8 +151,6 @@
     padding: 32px 20px;
     background-color: var(--color-bg-shade);
 }
-
-.section-emblem-container {}
 
 .section-emblem-grid {
     display: flex;
