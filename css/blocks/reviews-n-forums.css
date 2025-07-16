@@ -1,0 +1,124 @@
+.section-reviews-n-forums {
+    min-height: 1265px;
+    padding: 102px 0 130px;
+    position: relative;
+}
+
+.section-customers-review {
+    margin-bottom: 174px;
+}
+
+.section-customers-review-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-review-2 {}
+
+.card-review-inner {
+    padding: 21.5px 26.5px;
+    margin-bottom: 20px;
+
+    background-color: var(--color-bg-card);
+    border-radius: 25px 25px 25px 0;
+}
+
+.card-review-inner img {
+    margin-bottom: 5px;
+}
+
+.customer-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.customer-2 .circle {
+    width: 60px;
+    height: 60px;
+    position: unset;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.customer-2#customer-1 .circle {
+    background-image: image-set(url(../../imgs/reviews-n-forums/woman-white-shirt-with-her-arms-crossed\ 1.jpg) 1x,
+            url(../../imgs/reviews-n-forums/woman-white-shirt-with-her-arms-crossed\ 1@2x.jpg) 2x);
+}
+
+.customer-2#customer-2 .circle {
+    background-image: image-set(url(../../imgs/reviews-n-forums/woman-with-her-arms-crossed-smiling\ 1.jpg) 1x,
+            url(../../imgs/reviews-n-forums/woman-with-her-arms-crossed-smiling\ 1@2x.jpg) 2x);
+}
+
+.customer-2#customer-3 .circle {
+    background-image: image-set(url(../../imgs/reviews-n-forums/handsome-confident-smiling-man-with-hands-crossed-chest\ 1.jpg) 1x,
+            url(../../imgs/reviews-n-forums/handsome-confident-smiling-man-with-hands-crossed-chest\ 1@2x.jpg) 2x);
+}
+
+.section-healthcare-insights {}
+
+.section-healthcare-insights .section-title {
+    text-align: left;
+}
+
+.section-healthcare-insights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 102px;
+}
+
+.card-insights {
+    display: flex;
+    gap: 30px;
+}
+
+.card-insights-left {
+    width: 302px;
+    height: 362px;
+    display: inline-block;
+    background-color: var(--color-bg-card);
+}
+
+.card-insights-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.date h6 {
+    color: var(--body-text);
+}
+
+.card-insights-right__last {
+    justify-self: flex-end;
+    display: flex;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    width: max-content;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--text-color);
+}
+
+.section-reviews-n-forums-bg-prop {
+    top: 540px;
+    left: 37.5px;
+
+    transform: rotate(16deg);
+}
