@@ -1,0 +1,67 @@
+.section-expects {
+    padding: 130px 0;
+    min-height: 903px;
+    position: relative;
+    background-color: var(--border-color);
+}
+
+.section-expects-content h3 {
+    max-width: 890px;
+    margin-bottom: 130px;
+    font-size: 58px;
+}
+
+.section-expects-content__last {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+
+.section-expects-content__last p {
+    align-self: flex-end;
+}
+
+.expects {
+    /* flex-basis: 33%; */
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.expect {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.expect h4 {
+    color: var(--body-text);
+}
+
+.expect.checked h4 {
+    color: var(--text-color);
+}
+
+.img-wrapper {
+    min-width: 415px;
+    min-height: 380px;
+
+    background-color: var(--color-bg-card);
+    border-radius: 10px;
+
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-wrapper#img-wrapper-2 {
+    background-image: image-set(url(../../imgs/expects/taking-pills.jpg) 1x,
+            url(../../imgs/expects/taking-pills@2x.jpg) 2x);
+}
+
+.section-expects-bg-prop {
+    right: 0;
+}

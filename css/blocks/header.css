@@ -163,6 +163,7 @@
 #header-section-hero-about {
     min-height: 1610px;
     padding: 150px 0 130px;
+    background-color: var(--bg-color);
 }
 
 #header-section-hero-about .container {
@@ -187,8 +188,6 @@
     line-height: 120%;
     text-align: center;
 }
-
-#header-section-hero-about .section-hero {}
 
 .section-hero-imgs {
     display: flex;
@@ -241,8 +240,6 @@
     align-items: center;
     gap: 30px;
 }
-
-.background-wrapper {}
 
 .header-bg-wrapper #header-bg-prop-img-2 {
     top: 900px;
