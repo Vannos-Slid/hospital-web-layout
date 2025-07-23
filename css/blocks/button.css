@@ -6,11 +6,11 @@
     border-radius: 10px;
 
     background: var(--text-color);
-    color: white;
+    color: var(--color-bg-card);
 }
 
 .button p {
-    color: white;
+    color: var(--color-bg-card);
 }
 
 .button-content {

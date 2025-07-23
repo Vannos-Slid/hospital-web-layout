@@ -8,7 +8,7 @@
 }
 
 .row.container {
-    padding: 27px 0;
+    padding: 27px 15px;
 
     display: flex;
     justify-content: space-between;
@@ -340,4 +340,125 @@
 .section-rodemap-3-bg-prop {
     right: 0;
     top: 430px;
+}
+
+.header-section-hero#header-section-hero-contact {
+    padding-top: 170px;
+    background-color: var(--bg-color);
+}
+
+.section-contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact-us-title {
+    margin-bottom: 70px;
+}
+
+.section-contact-us-title p {
+    max-width: 531px;
+    text-align: center;
+}
+
+.icon-title {
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-contact-us .icon-title h2 {
+    font-size: 70px;
+}
+
+.section-contact-us form {
+    width: 856px;
+    text-align: center;
+}
+
+
+.section-contact-us form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-contact-us form .input-field {
+    width: 48.5%;
+    margin-bottom: 40px;
+}
+
+.section-contact-us .field .item {
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid var(--text-color);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.section-contact-us .field .item::placeholder {
+    background-image: url(../../imgs/header/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.section-contact-us .field .item#name::placeholder {
+    background-image: url(../../imgs/header/user-icon.svg);
+}
+
+.section-contact-us .field .item#email::placeholder {
+    background-image: url(../../imgs/header/envelope-icon.svg);
+}
+
+.section-contact-us .field .item#phone::placeholder {
+    background-image: url(../../imgs/header/phone-icon-small.svg);
+}
+
+.section-contact-us .field .item#message::placeholder {
+    background-image: url(../../imgs/header/pen-to-square-icon.svg);
+}
+
+.section-contact-us .field-title {
+    margin-bottom: 10px;
+
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section-contact-us form .textrarea-field {
+    margin-bottom: 30px;
+}
+
+.section-contact-us form .textrarea-field .item {
+    resize: none;
+}
+
+.section-contact-us form button {
+    padding: 11px 32px;
+    min-width: 218px;
+
+    background: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.section-contact-us form button span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--color-bg-card);
 }

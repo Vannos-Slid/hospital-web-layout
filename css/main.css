@@ -17,6 +17,7 @@
 @import "./blocks/reviews-n-forums.css";
 @import "./blocks/expects.css";
 @import "./blocks/cta-join.css";
+@import "./blocks/faq.css";
 
 /* Tests */
 @import "./blocks/test.css";
