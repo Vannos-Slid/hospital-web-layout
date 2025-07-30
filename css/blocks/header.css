@@ -12,7 +12,7 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .header-nav {
@@ -40,6 +40,35 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.header-icons a {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.header-icons .cart-icon-pure {
+    display: flex;
+    position: relative;
+    min-width: 30px;
+    min-height: 28px;
+}
+
+.header-icons .cart-icon-pure .cart-item-count {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+    border: 1.9px solid var(--text-color);
+    border-radius: 50%;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--text-color);
 }
 
 .header-section-hero {
