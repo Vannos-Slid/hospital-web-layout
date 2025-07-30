@@ -37,7 +37,7 @@
         margin-bottom: 60px;
 
         font-weight: 500;
-        font-size: 48px;
+        font-size: 3rem;
         line-height: 120%;
         text-align: center;
     }
@@ -128,7 +128,7 @@
         display: inline-block;
 
         font-weight: 400;
-        font-size: 13px;
+        font-size: 0.8rem;
         line-height: 150%;
         color: var(--bg-color);
 
@@ -223,7 +223,7 @@
     }
 
     .product-button span {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 500;
         color: var(--text-color);
     }
@@ -239,7 +239,7 @@
     }
 
     .discount p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .discount span {
@@ -290,6 +290,6 @@
     }
 
     .card-sertificate-text p {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
     }
