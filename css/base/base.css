@@ -98,3 +98,12 @@ a {
     pointer-events: none;
     z-index: 0;
 }
+
+#ovarlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    z-index: 997;
+    display: none;
+    transition: background 1s ease;
+}
