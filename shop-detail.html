@@ -13,10 +13,30 @@
 
     <header class="header">
 
+        <div class="off-screen-menu">
+
+            <div class="header-icons">
+                <a href="#!" class="search"><img class="search-img" src="./imgs/header/search-icon.svg" alt=""></a>
+                <a href="#!" class="cart-icon cart-icon-pure">
+                    <img width="25" height="25" src="./imgs/header/cart-icon-pure.svg" alt="" class="cart-img">
+                    <span class="cart-item-count">0</span>
+                </a>
+            </div>
+
+            <ul class="header-nav">
+                <li><a href="./home-2.html">Home</a></li>
+                <li><a href="./shop-detail.html">Shop</a></li>
+                <li id="pages">Pages <img src="./imgs/header/dropdown-arrow.svg" alt=""></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
         <nav id="header-section-nav-2" class="header-section-nav">
 
             <div class="row container">
-                <a href="#!" class="header-logo">
+                <a href="./index.html" class="header-logo">
                     <img src="./imgs/logo.png" srcset="./imgs/logo@2x.png 2x" alt="">
                 </a>
 
@@ -34,6 +54,12 @@
                         <img width="25" height="25" src="./imgs/header/cart-icon-pure.svg" alt="" class="cart-img">
                         <span class="cart-item-count">0</span>
                     </a>
+                </div>
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
 
@@ -449,6 +475,8 @@
             <img src="./imgs/footer/plant.svg" id="prop-2" alt="" class="footer-bg-prop">
         </div>
     </footer>
+
+    <script src="./js/ham-menu.js"></script>
 </body>
 
 </html>

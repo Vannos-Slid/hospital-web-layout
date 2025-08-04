@@ -80,9 +80,11 @@ a {
 
 .container {
     margin: 0 auto;
-    padding: 0 1em;
 
-    max-width: 1332px;
+    --container--r-l-padding: 2em;
+    padding: 0 var(--container--r-l-padding);
+
+    max-width: calc(1300px + var(--container--r-l-padding));
     width: 100%;
 
 
