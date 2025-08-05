@@ -12,27 +12,18 @@
 
 <body>
 
-    <header class="header">
-
-        <div class="off-screen-menu">
-
-            <div class="header-icons">
-                <a href="#!" class="search"><img class="search-img" src="./imgs/header/search-icon.svg" alt=""></a>
-                <a href="#!" class="cart-icon cart-icon-pure">
-                    <img width="25" height="25" src="./imgs/header/cart-icon-pure.svg" alt="" class="cart-img">
-                    <span class="cart-item-count">0</span>
-                </a>
+    <div class="close-button-wrapper">
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false"
+            aria-controls="navbar">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+        </button>
+    </div>
 
-            <ul class="header-nav">
-                <li><a href="./home-2.html">Home</a></li>
-                <li><a href="./shop-detail.html">Shop</a></li>
-                <li id="pages">Pages <img src="./imgs/header/dropdown-arrow.svg" alt=""></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-
-        </div>
+    <header class="header">
 
         <nav id="header-section-nav-1" class="header-section-nav">
 
@@ -57,11 +48,14 @@
                     </a>
                 </div>
 
-                <div class="ham-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="open sidebar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
             </div>
 
         </nav>
