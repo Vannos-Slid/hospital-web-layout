@@ -3,8 +3,10 @@
     position: relative;
 }
 
-.section-collection-products {
-    margin-bottom: 130px;
+.section-collection .container {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
 }
 
 .section-collection-img-prop {
@@ -85,4 +87,31 @@
     background-repeat: no-repeat;
     background-position: bottom 4px left 0;
 
+}
+
+@media (max-width: 1200px) {
+    .section-collection-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-join {
+        grid-template-columns: 1fr;
+    }
+
+    .section-join-left {
+        display: none;
+    }
+
+    .section-join-right h4 {
+        margin-bottom: 100px;
+    }
+
+    .section-join-right-inputs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section-join-right-inputs input {
+        width: min(600px, 100%)
+    }
 }

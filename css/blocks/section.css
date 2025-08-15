@@ -7,7 +7,7 @@
         background-color: var(--bg-color);
         position: relative;
 
-        height: 1908px;
+        min-height: 1908px;
     }
 
     .section-rodemap-img-prop,
@@ -292,4 +292,31 @@
     .card-sertificate-text p {
         font-size: 1rem;
         font-weight: 400;
+    }
+
+
+    @media (max-width: 1200px) {
+
+        .section-category-grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+        }
+
+        .section-cta-grid {
+            grid-template-columns: repeat(2, 403px);
+            place-content: center;
+            gap: 60px;
+        }
+
+        .section-latest-product-grid {
+            grid-template-columns: repeat(2, 296px);
+            place-content: center;
+            gap: 60px;
+        }
+
+        .section-sertificates-grid {
+            grid-template-columns: repeat(2, 385px);
+            place-content: center;
+        }
+
     }

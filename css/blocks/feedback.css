@@ -4,6 +4,12 @@
     min-height: 1482px;
 }
 
+.section-feedback .container {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
 .section-feedback-review {
     padding: 97px 132px 55px;
     margin-bottom: 30px;
@@ -27,8 +33,6 @@
 }
 
 .section-feedback-grid {
-    margin-bottom: 130px;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -39,6 +43,8 @@
 
     display: flex;
     gap: 15.5px;
+
+    background-color: var(--color-bg-card);
 
     align-items: center;
 
@@ -136,3 +142,11 @@
 
     transform: rotate(-36deg);
 }
+
+@media (max-width: 1330px) {
+    .section-feedback-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {}

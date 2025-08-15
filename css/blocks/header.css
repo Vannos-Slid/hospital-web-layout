@@ -89,6 +89,9 @@
     padding: 4em 0 7.5em;
     min-height: 900px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-inner {
@@ -108,7 +111,7 @@
 .header-inner-left-text h1 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 5rem;
+    font-size: clamp(3rem, 2.368rem + 3.16vw, 5rem);
     line-height: 110%;
 }
 
@@ -648,4 +651,27 @@
     .header-section-hero#header-section-hero-2 {
         background-image: none;
     }
+}
+
+@media (max-width: 1200px) {
+    .header-inner {
+        justify-content: center;
+    }
+
+    .header-inner-left {
+        text-align: center;
+    }
+
+    .header-inner-left-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-inner-left-text p {}
+
+    .header-inner-img {
+        display: none;
+    }
+
 }
