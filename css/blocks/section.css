@@ -320,3 +320,27 @@
         }
 
     }
+
+    @media (max-width: 900px) {
+        .section-cta-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    @media (max-width: 800px) {
+        .section-sertificates-grid {
+            grid-template-columns: repeat(1, 1fr);
+            place-content: center;
+        }
+
+        .section-latest-product-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+
+    @media (max-width: 700px) {
+        .section-latest-product-grid {
+            grid-template-columns: repeat(1, 296px);
+        }
+    }

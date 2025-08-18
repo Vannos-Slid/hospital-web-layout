@@ -150,3 +150,19 @@
 }
 
 @media (max-width: 1200px) {}
+
+@media (max-width: 900px) {
+    .section-feedback-follow-grid :is(.card-img:nth-child(1), .card-img:nth-child(4)) {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .section-feedback-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-feedback-follow-grid .card-img:not(#img-2) {
+        display: none;
+    }
+}

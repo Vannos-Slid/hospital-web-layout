@@ -34,6 +34,11 @@
     margin-bottom: 15px;
 }
 
+/* .col:nth-child(1),
+.col:nth-child(2) {
+    flex-basis: 13.5%;
+} */
+
 .col-mid {
     padding: 10px;
     max-width: 318px;
@@ -130,6 +135,14 @@
     .col {
         flex-basis: 100%;
         gap: 60px;
+    }
+
+    .col.col-first {
+        flex-direction: column;
+    }
+
+    .col-mid {
+        order: 1;
     }
 
     .col.col-addr-cont {
