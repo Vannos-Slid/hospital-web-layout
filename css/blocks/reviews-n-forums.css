@@ -63,8 +63,8 @@
 
 .section-healthcare-insights-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 102px;
+    grid-template-columns: repeat(auto-fit, minmax(583px, 1fr));
+    gap: 60px
 }
 
 .card-insights {
@@ -96,7 +96,12 @@
             url(../../imgs/reviews-n-forums/women-with-pills@2x.jpg) 2x);
 }
 
+.card-insights img {
+    border-radius: 10px;
+}
+
 .card-insights-right {
+    min-width: 251px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -116,9 +121,6 @@
     width: max-content;
     margin-top: auto;
     display: flex;
-}
-
-.card-insights-right__last {
     color: var(--text-color);
 }
 
@@ -143,4 +145,21 @@
     left: 37.5px;
 
     transform: rotate(16deg);
+}
+
+@media (max-width: 1200px) {
+    .section-customers-review-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-customers-review-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
