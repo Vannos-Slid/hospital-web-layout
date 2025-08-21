@@ -87,7 +87,6 @@ a {
     max-width: calc(1300px + var(--container--r-l-padding) * 2);
     width: 100%;
 
-
     position: relative;
     z-index: 1;
 }
