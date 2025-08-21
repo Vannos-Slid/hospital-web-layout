@@ -84,7 +84,7 @@ a {
     --container--r-l-padding: 2em;
     padding: 0 var(--container--r-l-padding);
 
-    max-width: calc(1300px + var(--container--r-l-padding));
+    max-width: calc(1300px + var(--container--r-l-padding) * 2);
     width: 100%;
 
 

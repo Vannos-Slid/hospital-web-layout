@@ -121,6 +121,10 @@
         min-width: 175px;
     }
 
+    .cta-img-right {
+        display: none;
+    }
+
     .budge {
         margin-bottom: 38px;
         padding: 5px 12px;
@@ -340,7 +344,29 @@
 
 
     @media (max-width: 700px) {
+        .section-category-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         .section-latest-product-grid {
             grid-template-columns: repeat(1, 296px);
+        }
+    }
+
+    @media (max-width: 450px) {
+        .section-category-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .card-cta {
+            gap: 10px;
+        }
+
+        .cta-text~img {
+            display: none;
+        }
+
+        .cta-img-right {
+            display: block;
         }
     }

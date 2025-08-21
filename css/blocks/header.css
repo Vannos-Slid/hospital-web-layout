@@ -286,8 +286,9 @@
 }
 
 .section-benefits-grid {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
     gap: 127px
 }
 
@@ -297,6 +298,11 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.card-benefit h5 {
+    font-size: clamp(1.125rem, 1.006rem + 0.59vw, 1.5rem);
+    text-align: center;
 }
 
 .header-bg-wrapper #header-bg-prop-img-2 {
@@ -318,15 +324,17 @@
 }
 
 .section-hero-left {
-    min-width: 463px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 70px;
 }
 
 .section-hero-left img {
     border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .section-hero-right {
@@ -336,7 +344,7 @@
 }
 
 .section-hero-right h2 {
-    font-size: 4.375rem;
+    font-size: clamp(3rem, 2.565rem + 2.17vw, 4.375rem);
     line-height: 120%;
 }
 
@@ -345,13 +353,13 @@
 }
 
 .section-hero-right .discount h4 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 1.684rem + 1.58vw, 3rem);
     line-height: 120%;
 }
 
 .section-hero-right .discount p {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: clamp(1.125rem, 0.848rem + 1.38vw, 2rem);
     opacity: 0.7;
 }
 
@@ -716,6 +724,22 @@
         gap: 60px;
     }
 
+}
+
+@media (max-width: 900px) {
+    .section-hero {
+        flex-direction: column;
+    }
+
+    .section-hero-left {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 700px) {
