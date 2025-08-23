@@ -11,7 +11,7 @@
 }
 
 .section-feedback-review {
-    padding: 97px 132px 55px;
+    padding: 97px min(132px, 15%) 55px;
     margin-bottom: 30px;
 
     background-color: var(--color-bg-card);
@@ -152,12 +152,26 @@
 @media (max-width: 1200px) {}
 
 @media (max-width: 900px) {
+
+    .section-feedback-review {
+        padding: 97px min(132px, 10%) 55px;
+    }
+
+    .section-feedback-review .background-wrapper {
+        display: none;
+    }
+
+    .section-feedback-review p {
+        text-align: start;
+    }
+
     .section-feedback-follow-grid :is(.card-img:nth-child(1), .card-img:nth-child(4)) {
         display: none;
     }
 }
 
 @media (max-width: 700px) {
+
     .section-feedback-grid {
         grid-template-columns: repeat(1, 1fr);
     }

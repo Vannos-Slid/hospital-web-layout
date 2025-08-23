@@ -111,7 +111,7 @@
 .header-inner-left-text h1 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: clamp(3rem, 2.368rem + 3.16vw, 5rem);
+    font-size: clamp(2.625rem, 1.874rem + 3.75vw, 5rem);
     line-height: 110%;
 }
 
@@ -181,7 +181,7 @@
 #header-section-hero-2 .header-inner-left-text h1 {
     width: 100%;
     margin-bottom: 80px;
-    font-size: 4.25rem;
+    font-size: clamp(2.375rem, 1.782rem + 2.96vw, 4.25rem);
     line-height: 120%;
 }
 
@@ -242,26 +242,24 @@
 #header-section-hero-about .section-hero h2 {
     max-width: 1080px;
     margin-bottom: 60px;
-    font-size: 4.375rem;
+    font-size: clamp(2rem, 1.249rem + 3.75vw, 4.375rem);
     line-height: 120%;
     text-align: center;
 }
 
 .section-hero-imgs {
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
 }
 
-.section-hero-imgs {
-    width: 100%;
-}
-
 .section-hero-imgs img {
+    min-width: 0;
     max-width: 100%;
     height: auto;
-    object-fit: contain;
+    /* object-fit: cover; */
     border-radius: 10px;
 }
 
@@ -273,11 +271,11 @@
 
 .section-about-us h3 {
     width: max-content;
-    font-size: 3.625rem;
+    font-size: clamp(2.25rem, 1.815rem + 2.17vw, 3.625rem);
 }
 
 .section-about-us h4 {
-    font-size: 2.5rem;
+    font-size: clamp(1.125rem, 0.69rem + 2.17vw, 2.5rem);
     flex: 2;
 }
 
@@ -344,7 +342,7 @@
 }
 
 .section-hero-right h2 {
-    font-size: clamp(3rem, 2.565rem + 2.17vw, 4.375rem);
+    font-size: clamp(2.25rem, 1.578rem + 3.36vw, 4.375rem);
     line-height: 120%;
 }
 
@@ -375,6 +373,7 @@
     font-size: 1.5rem;
     line-height: 150%;
     color: var(--text-color);
+    background-color: var(--inner-bg-color);
     border: 2px solid var(--body-text);
     border-radius: 10px;
 }
@@ -439,11 +438,11 @@
 }
 
 .section-contact-us .icon-title h2 {
-    font-size: 4.375rem;
+    font-size: clamp(2rem, 1.249rem + 3.75vw, 4.375rem);
 }
 
 .section-contact-us form {
-    width: 856px;
+    width: min(856px, 100%);
     text-align: center;
 }
 
@@ -724,9 +723,20 @@
         gap: 60px;
     }
 
+    .section-about-us {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 60px;
+    }
+
 }
 
 @media (max-width: 900px) {
+    #header-section-hero-2 .header-inner-left-text h1 {
+        margin-bottom: 60px;
+    }
+
     .section-hero {
         flex-direction: column;
     }
@@ -740,12 +750,46 @@
     .section-benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .header-section-hero#header-section-hero-contact {
+        padding-top: 130px;
+    }
 }
 
 @media (max-width: 700px) {
     .section-emblem-grid {
         grid-template-columns: repeat(2, 160px);
         place-content: space-evenly;
+        gap: 35px 30px;
+    }
+
+    .section-hero-imgs {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-about-us {
+        gap: 30px;
+    }
+
+    .section-contact-us form button {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 570px) {
+    .section-contact-us form .input-box {
+        flex-direction: column;
+    }
+
+    .section-contact-us form .input-field {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .section-hero-left {
         gap: 60px;
     }
 }

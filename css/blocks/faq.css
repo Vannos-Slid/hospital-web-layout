@@ -13,11 +13,11 @@
 .section-asked-questions .icon-title {
     justify-content: start;
     max-width: 520px;
-    font-size: 3.625rem;
     margin-bottom: auto;
 }
 
 .section-asked-questions .icon-title h2 {
+    font-size: clamp(2rem, 1.486rem + 2.57vw, 3.625rem);
     display: inline-block;
 }
 
@@ -47,6 +47,10 @@
     transition: transform 0.2s ease-in;
 }
 
+.faq .question h5 {
+    font-size: clamp(1.25rem, 1.171rem + 0.4vw, 1.5rem);
+}
+
 .faq.active .question img {
     transform: rotate(45deg);
 }
@@ -63,4 +67,20 @@
 
 .faq .answer p {
     padding-top: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+    .section-asked-questions-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .section-asked-questions .icon-title {
+        flex-direction: column-reverse;
+    }
+
+    .section-asked-questions .icon-title h2 {
+        text-align: center;
+    }
 }

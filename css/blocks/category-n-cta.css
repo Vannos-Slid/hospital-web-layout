@@ -120,6 +120,7 @@
     }
 
     .section-cta-2-right h4.section-title {
+        font-size: clamp(2.25rem, 2.013rem + 1.19vw, 3rem);
         text-align: center;
     }
 

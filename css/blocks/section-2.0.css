@@ -19,7 +19,7 @@
     margin-bottom: 20px;
     max-width: 790px;
 
-    font-size: clamp(1rem, 0.368rem + 3.16vw, 3rem);
+    font-size: clamp(1.125rem, 0.532rem + 2.96vw, 3rem);
     line-height: 120%;
 }
 
@@ -123,6 +123,7 @@
     }
 
     .section-rodemap-2 .section-about-inner p {
+        font-size: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
         text-align: center;
     }
 
