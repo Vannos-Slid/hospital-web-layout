@@ -154,7 +154,7 @@
 @media (max-width: 900px) {
 
     .section-feedback-review {
-        padding: 97px min(132px, 10%) 55px;
+        padding: 97px min(132px, 8%) 55px;
     }
 
     .section-feedback-review .background-wrapper {
